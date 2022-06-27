@@ -1,8 +1,10 @@
 package OOP;
 public class Car extends Vehicle{
+    private int wheels=4;
 
-    public Car(String brand, String model, int wheels) {
-        super(brand,model,wheels);
+    public Car(String brand, String model) {
+        super(brand, model);
+        super.setWheels(wheels);
 
     }
 

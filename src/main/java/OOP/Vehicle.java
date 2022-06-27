@@ -2,12 +2,11 @@ package OOP;
 public class Vehicle {
     private String brand;
     private String model;
-    private int wheels;
+    private int wheels=0;
 
-    public Vehicle(String brand, String model, int wheels) {
+    public Vehicle(String brand, String model) {
         this.brand = brand;
         this.model = model;
-        this.wheels = wheels;
     }
 
     public String introduction(){
